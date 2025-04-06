@@ -17,7 +17,7 @@ export default function Contact(){
                             <p className="">{v("phone")}</p>
                         </div>
                         <div className="col-span-4" >
-                            <p>+40 744 694 712</p>
+                            <p>+40 744 694 712</p>&nbsp;
                         </div>
                         <div className="col-span-1">
                             <p className="">{v("email")}</p>
