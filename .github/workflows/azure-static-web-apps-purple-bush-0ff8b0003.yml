@@ -48,7 +48,7 @@ jobs:
           action: "upload"
           skip_app_build: true
           app_artifact_location: ""
-          app_location: "/"
+          app_location: "/.next"
           output_location: ""
 
   close_pull_request_job:
