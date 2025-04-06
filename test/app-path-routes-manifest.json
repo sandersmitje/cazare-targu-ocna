@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/[locale]/activities/page": "/[locale]/activities",
+  "/[locale]/contact/page": "/[locale]/contact",
+  "/[locale]/book/page": "/[locale]/book",
+  "/[locale]/gallery/page": "/[locale]/gallery",
+  "/[locale]/page": "/[locale]",
+  "/[locale]/gradinaverde/page": "/[locale]/gradinaverde",
+  "/[locale]/pensiuneaamelia/page": "/[locale]/pensiuneaamelia"
+}
