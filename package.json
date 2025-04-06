@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build && npx next-clear-cache",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:azure": "next build && npx next-clear-cache"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
