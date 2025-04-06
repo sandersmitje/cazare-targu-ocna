@@ -1,0 +1,24 @@
+{
+  "pages": {
+    "/[locale]/page": [
+      "static/chunks/node_modules_next_dist_1a6ee436._.js",
+      "static/chunks/node_modules_next_dist_client_components_not-found-error_f0e4c1a2.js",
+      "static/chunks/_3fc0884c._.css",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_0db50eb5._.js",
+      "static/chunks/node_modules_@fortawesome_free-solid-svg-icons_index_mjs_6d4e8d45._.js",
+      "static/chunks/node_modules_9140c2d6._.js",
+      "static/chunks/_3b5cdb54._.js",
+      "static/chunks/app_[locale]_layout_tsx_f0e4c1a2._.js",
+      "static/chunks/node_modules_719ad47c._.js",
+      "static/chunks/_b16d7fa5._.js",
+      "static/chunks/app_[locale]_page_tsx_b50cc3f4._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_49a6ea35._.js",
+      "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
+      "static/chunks/node_modules_next_dist_client_43e3ffb8._.js",
+      "static/chunks/node_modules_next_dist_3bfaed20._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
+      "static/chunks/_e69f0d32._.js",
+      "static/chunks/_be317ff2._.js"
+    ]
+  }
+}
