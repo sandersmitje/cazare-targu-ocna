@@ -33,6 +33,7 @@ export default async function RootLayout({
         
         <NextIntlClientProvider>
         <header className="header mainbanner">
+          HOI
           <div className="md:flex md:items-start p-8 w-full pl-5 md:pl-12 pr-12">
             <div className="md:w-1/4 min-w-[200px] relative flex pl-4 md:h-full">            
               <img style={{marginTop: "0px"}} className="align-middle" alt="Logo" src="/img/logo.png"/>
