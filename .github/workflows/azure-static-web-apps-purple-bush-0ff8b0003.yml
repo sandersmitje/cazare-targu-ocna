@@ -45,7 +45,7 @@ jobs:
           github_id_token: ${{ steps.idtoken.outputs.result }}
           action: "upload"
           app_location: "/.next"
-          output_location: ".next"     
+          output_location: ""     
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
