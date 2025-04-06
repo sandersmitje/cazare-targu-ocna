@@ -34,11 +34,20 @@ jobs:
                 return await coredemo.getIDToken()
             result-encoding: string
 
+      - name: Install dependencies
+        run: npm install
+
       - name: Build the app
         run: npm run build
 
-      - name: Remove .next/cache
-        run: rm -rf .next/cache
+      - name: Copy necessary .next files (excluding cache)
+        run: |
+          mkdir deploy
+          cp -r .next deploy/.next
+          cp -r public deploy/public
+          cp -r node_modules deploy/node_modules
+          cp next.config.js deploy/ || true
+          rm -rf deploy/.next/cache
 
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
@@ -46,8 +55,8 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_PURPLE_BUSH_0FF8B0003 }}
           github_id_token: ${{ steps.idtoken.outputs.result }}
           action: "upload"
-          app_location: "/"
-          output_location: "/.next"
+          app_location: "deploy"
+          output_location: ".next"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
