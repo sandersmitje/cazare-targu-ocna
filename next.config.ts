@@ -2,6 +2,8 @@ import {NextConfig} from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
  
 const nextConfig: NextConfig = {    
+    /*output: 'export',
+    distDir: 'dist'*/
 };
  
 const withNextIntl = createNextIntlPlugin();
