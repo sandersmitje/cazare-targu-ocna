@@ -7,7 +7,6 @@ import {routing} from '@/i18n/routing';
 import NavMenu from "@/components/ui/nav-menu";
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import Image from "next/image";
 config.autoAddCss = false;
 
 export default async function RootLayout({
