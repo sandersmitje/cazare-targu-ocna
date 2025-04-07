@@ -36,6 +36,9 @@ export default function Activities(){
             <section id="welness" className="flex justify-center pt-8">
                 <div className="page-container md:flex md:items-start">                        
                     <div className="md:w-2/5 grid grid-cols-1 gap-2  pt-10">
+                        <div className="block md:hidden">
+                            <h1 className="block">{ t('activity2.title') }</h1>
+                        </div>
                         <div>
                             <Image alt="Spa 1" width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/img/activities/spa1.jpg"/>
                         </div>
@@ -44,7 +47,7 @@ export default function Activities(){
                         </div>                               
                     </div>                
                     <div className="md:w-3/5 p-5 md:pl-10 md:grid md:grid-cols-1 content-center md:h-full">
-                        <h1 className="block">{ t('activity2.title') }</h1>
+                        <h1 className="hidden md:block">{ t('activity2.title') }</h1>
                         <p className="mt-2">
                         { t('activity2.paragraph1') }
                         </p> 
@@ -77,6 +80,10 @@ export default function Activities(){
             <section id="adventure" className="flex justify-center pt-8">
                 <div className="page-container md:flex md:items-start">                        
                     <div className="md:w-2/5 grid grid-cols-1 gap-2  pt-10">
+                    
+                        <div className="block md:hidden">
+                            <h1 className="block">{ t('activity4.title') }</h1>
+                        </div>
                         <div>
                             <Image alt="Adventure 1" width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/img/activities/adventure1.jpg"/>
                         </div>
@@ -85,7 +92,7 @@ export default function Activities(){
                         </div>                               
                     </div>                
                     <div className="md:w-3/5 p-5 md:pl-10 md:grid md:grid-cols-1 content-center md:h-full">
-                        <h1 className="block">{ t('activity4.title') }</h1>
+                        <h1 className="hidden md:block">{ t('activity4.title') }</h1>
                         <p className="mt-2">
                         { t('activity4.paragraph1') }
                         </p> 
@@ -138,13 +145,16 @@ export default function Activities(){
             
             <section id="magura" className="flex justify-center pt-8">
                 <div className="page-container md:flex md:items-start">                        
-                    <div className="md:w-2/5 grid grid-cols-1 gap-2  pt-10">
+                    <div className="md:w-2/5 grid grid-cols-1 gap-2  pt-10">                    
+                        <div className="block md:hidden">
+                            <h1 className="block">{ t('activity6.title') }</h1>
+                        </div>
                         <div>
                             <Image alt="Magura park" width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/img/home/jumbotron.jpg"/>
                         </div>                             
                     </div>                
                     <div className="md:w-3/5 p-5 md:pl-10 md:grid md:grid-cols-1 content-center md:h-full">
-                        <h1 className="block">{ t('activity6.title') }</h1>
+                        <h1 className="hidden md:block">{ t('activity6.title') }</h1>
                         <p className="mt-2">
                         { t('activity6.paragraph1') }
                         </p> 

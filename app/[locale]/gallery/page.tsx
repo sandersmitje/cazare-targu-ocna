@@ -29,7 +29,7 @@ export default function Gallery(){
 
                     <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} sizes="100vw" src="/img/gallery/Gallery31.jpg"
                         className="mb-4" alt="Winter BBQ" title="Winter BBQ"/> 
-                    <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} unoptimized={true} sizes="100vw" src="/img/gallery/Gallery42.png"
+                    <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} sizes="100vw" src="/img/gallery/Gallery42.png"
                         className="mb-4" alt="Chief relations manager" title="Chief relations manager"/>
                 </div>
                 <div>
