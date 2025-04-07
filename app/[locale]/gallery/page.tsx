@@ -17,7 +17,7 @@ export default function Gallery(){
                      alt="Targu-Ocna" title="Targu-Ocna"/>
 
                     
-                <Image width={0} height={0} className="mb-4" sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/img/gallery/gallery38.jpg"
+                <Image width={0} height={0} className="mb-4" sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/img/gallery/Gallery38.jpg"
                      alt="New Year's Traditions" title="New Year's Traditions"/>
                 </div>
                 <div>                    
@@ -29,7 +29,7 @@ export default function Gallery(){
 
                     <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} sizes="100vw" src="/img/gallery/Gallery31.jpg"
                         className="mb-4" alt="Winter BBQ" title="Winter BBQ"/> 
-                    <Image width={600} height={400} style={{ width: '100%', height: 'auto' }} src="/img/gallery/gallery42.png"
+                    <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} unoptimized={true} sizes="100vw" src="/img/gallery/Gallery42.png"
                         className="mb-4" alt="Chief relations manager" title="Chief relations manager"/>
                 </div>
                 <div>
@@ -44,7 +44,7 @@ export default function Gallery(){
         className="mb-4" alt="Trotus valley" title="Trotus valley"/>
 
         
-        <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} sizes="100vw" src="/img/gallery/gallery33.jpg"
+        <Image width={0} height={0} style={{ width: '100%', height: 'auto' }} sizes="100vw" src="/img/gallery/Gallery33.jpg"
         className="mb-4" alt="Starry night" title="Starry night" />
                 </div>
             </section>
