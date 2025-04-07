@@ -36,7 +36,7 @@ export default function Activities(){
             <section id="welness" className="flex justify-center pt-8">
                 <div className="page-container md:flex md:items-start">                        
                     <div className="md:w-2/5 grid grid-cols-1 gap-2  pt-10">
-                        <div className="block md:hidden">
+                        <div className="block md:hidden pl-5">
                             <h1 className="block">{ t('activity2.title') }</h1>
                         </div>
                         <div>
@@ -81,7 +81,7 @@ export default function Activities(){
                 <div className="page-container md:flex md:items-start">                        
                     <div className="md:w-2/5 grid grid-cols-1 gap-2  pt-10">
                     
-                        <div className="block md:hidden">
+                        <div className="block md:hidden pl-5">
                             <h1 className="block">{ t('activity4.title') }</h1>
                         </div>
                         <div>
@@ -146,7 +146,7 @@ export default function Activities(){
             <section id="magura" className="flex justify-center pt-8">
                 <div className="page-container md:flex md:items-start">                        
                     <div className="md:w-2/5 grid grid-cols-1 gap-2  pt-10">                    
-                        <div className="block md:hidden">
+                        <div className="block md:hidden pl-5">
                             <h1 className="block">{ t('activity6.title') }</h1>
                         </div>
                         <div>
