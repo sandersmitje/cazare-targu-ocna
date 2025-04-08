@@ -28,7 +28,7 @@ export default function Home() {
                 <Image alt="welcome 3" width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/img/home/welcome3.png"/>
                 </div>
            </div>
-           <div className="md:w-3/5 pl-10">
+           <div className="md:w-3/5 p-5 md:pl-10 grid grid-cols-1 content-center md:h-full">
            <h2 className="block"><span>{ t('welcome') }</span><br/> { t('residence') }</h2>
               <p className="mt-2">
                 { t('article1.parg1') }
