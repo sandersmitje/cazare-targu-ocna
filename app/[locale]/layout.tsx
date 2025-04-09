@@ -7,6 +7,7 @@ import {routing} from '@/i18n/routing';
 import NavMenu from "@/components/ui/nav-menu";
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
+import { GoogleAnalytics } from "@next/third-parties/google";
 config.autoAddCss = false;
 
 export default async function RootLayout({
@@ -27,10 +28,9 @@ export default async function RootLayout({
         <meta name="author" content="Pensiunea Amelia"/>
         <meta name="keywords" content="Cazare in targu ocna, Salina, Strand, Pensiunea, Pension"/>
         <link rel="icon" href="/img/favicon.ico"/>
-
+        <GoogleAnalytics gaId="G-NCJ3B4Q53L" />
       </head>
       <body >
-        
         <NextIntlClientProvider>
         <header className="header mainbanner">          
           <div className="md:flex md:items-start p-8 w-full pl-5 md:pl-12 pr-12">
