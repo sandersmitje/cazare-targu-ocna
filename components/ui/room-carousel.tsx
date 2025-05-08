@@ -128,7 +128,7 @@ export default function RoomCarousel(props: CarouselProps){
       {
         type: "5",
         price: "price2",
-        message: "description1",
+        message: "description8",
         pension: "Vila Grădina Verde",
         link: "gradinaverde",
         index: 13
