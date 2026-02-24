@@ -1,6 +1,8 @@
 "use client"
 import GoogleMaps from '@/components/ui/google-maps';
 import {useTranslations} from 'next-intl';
+import { Calendar } from '@/components/ui/calendar';
+import { Planning } from '@/components/ui/planning';
 
 export default function Book(){
     const m = useTranslations("mainmenu");
@@ -8,9 +10,15 @@ export default function Book(){
     return (        
         <div className="w-full">
             <section id="book" className="flex justify-center pt-8 mb-12">
-                <div className="page-container md:flex md:items-start"> 
+                <div className="page-container md:flex md:items-start">
                 <form className="bg-white shadow-2xl">
                     <div className='w-full grid grid-cols-5 gap-4 p-8'>
+                    <div className="col-span-5">
+                        <Planning/>
+                    </div>
+                    <div className="col-span-5">
+                    <Calendar/> 
+                    </div>
                         <div className="col-span-5">
                             <h1>{m("book")}</h1>
                         </div>
